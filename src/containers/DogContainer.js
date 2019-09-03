@@ -28,11 +28,11 @@ class DogContainer extends Component {
 
 }
 
-const mapStateToProps = state => ({
-    // loading: getLoading(state),
-    dogs: getDogs(state)
+const mapStateToProps = state => {
+    // loading: getLoading(state),\
+    return { dogs: getDogs(state) };
 
-});
+};
 
 const mapDispatchToProps = dispatch => ({
     fetchDogs() {

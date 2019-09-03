@@ -6,4 +6,3 @@ export const fetchDogs = () => ({
     type: FETCH_DOGS,
     payload: getDogs()
 });
-
