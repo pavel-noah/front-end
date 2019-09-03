@@ -1,24 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Add dog button component renders add dog button 1`] = `
-<Fragment>
-  <form
-    onSubmit={[Function]}
-  >
-    Search For A Dog By Name: 
-    <input
-      name="searchInput"
-      onChange={[Function]}
-      type="text"
-      value=""
-    />
-    <button>
-      Search
-    </button>
-  </form>
-</Fragment>
-`;
-
 exports[`Search renders search 1`] = `
 <Fragment>
   <form
