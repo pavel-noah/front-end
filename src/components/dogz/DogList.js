@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Dog from './Dog';
 
 export default function DogList({ dogs }) {
-    console.log(dogs)
     const dogElement = dogs.map(dog => {
         return (
             <li key={dog._id} style={{ listStyle: 'none' }}>

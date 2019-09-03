@@ -14,6 +14,6 @@ export default function Dog({ dogName, dogAge, dogWeight }) {
 
 Dog.propTypes = {
     dogName: PropTypes.string.isRequired,
-    dogAge: PropTypes.number.isRequired,
-    dogWeight: PropTypes.number.isRequired
+    dogAge: PropTypes.string.isRequired,
+    dogWeight: PropTypes.string.isRequired
 };

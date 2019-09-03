@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dog component renders dog 1`] = `
+<Fragment>
+  <h1 />
+  <ul
+    style={
+      Object {
+        "listStyle": "none",
+      }
+    }
+  >
+    <li>
+      Age: 
+       
+    </li>
+    <li>
+      Weight: 
+       
+    </li>
+  </ul>
+</Fragment>
+`;

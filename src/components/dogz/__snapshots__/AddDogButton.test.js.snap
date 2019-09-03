@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add dog button component renders add dog button 1`] = `
+<Fragment>
+  <form
+    onSubmit={[Function]}
+  >
+    Name: 
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    Age: 
+    <input
+      name="age"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    Weight: 
+    <input
+      name="weight"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button>
+      submit dog
+    </button>
+  </form>
+</Fragment>
+`;
